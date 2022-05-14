@@ -1,0 +1,57 @@
+body {
+    margin: 0 0;
+    background-color: rgb(92, 118, 150);
+    color: rgb(64, 3, 97);
+    font-size: large;
+}
+
+.giriş {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    border-color: rgb(74, 154, 49);
+}
+
+.giriş label {
+    margin-left: 16%;
+}
+
+#bosluk {
+    margin-right: 12.5px;
+}
+
+#gönder {
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 19%;
+    transition-property: background-color;
+    transition-duration: 500ms
+}
+
+input::placeholder {
+    color: rgba(97, 3, 3, 0.396);
+    font-weight: bolder;
+}
+
+input[type="email"]:focus {
+    color: rgb(97, 3, 3);
+    font-weight: bolder;
+}
+
+input[type="password"]:focus {
+    color: rgb(97, 3, 3);
+    font-weight: bolder;
+}
+
+input[type="submit"]:valid {
+    border-color: rgb(97, 3, 3);
+    color: rgb(97, 3, 3);
+    font-weight: bolder;
+    background-color: rgb(155, 150, 150);
+}
+
+input[type="submit"]:hover {
+    background-color: gainsboro;
+}
